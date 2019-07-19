@@ -1,10 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
 
-// import { Container } from './styles';
+import { Container, Text } from './styles';
 
 export default function Main() {
-  return <View />;
+  return (
+    <Container>
+      <Text>Page Main</Text>
+    </Container>
+  );
 }
 
 Main.navigationOptions = {

@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { Text, View } from 'react-native';
-
-// import { Container } from './styles';
+import { Container, Text } from './styles';
 
 export default function User() {
   return (
-    <View>
+    <Container>
       <Text>Page User</Text>
-    </View>
+    </Container>
   );
 }
